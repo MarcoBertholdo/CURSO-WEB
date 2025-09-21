@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* INICIO DO HEADER */
+
+#cabecalho {
+    background-color: #f7b600;
+    text-align: center;
+    padding: 20px;
+}
+
+#cabecalho h1 {
+    padding-bottom: 30px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+    margin-top: 0px;
+}
+
+#color {
+    color: white;
+}
+
+#cabecalho a {
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#cabecalho a:hover {
+    color: #FFC400;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+/* FIM DO HEADER */
+
+
+/* INICIO DO MAIN */
+
+main {
+    width: 935px;
+    margin: 0px auto;
+}
+
+#principal {
+    float: left;
+}
+
+.postagens {
+    width: 660px;
+    padding: 20px 0px 20px 20px;
+    margin: 15px 15px 15px 0px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.postagens h1 {
+    margin: 0px;
+    font-size: 1.5em;
+    color: #FFC400;
+}
+
+.postagens p {
+    width: 640px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.postagens a {
+    font-size: 1em;
+    padding: 0px;
+    color: #fdc21e;
+    text-decoration: none;
+}
+
+.postagens a:hover {
+    text-decoration: underline;
+}
+
+.sub-titulo {
+    margin-top: 0px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    border-bottom: 1px dotted #CCC;
+}
+
+#menu-lateral {
+    width: 240px;
+    margin: 15px 0px;
+    float: right;
+}
+
+.post-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.post-lateral h2 {
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #505050;
+    background-color: #c4c4c4;
+    font-size: 1.2em;
+}
+
+.post-lateral p {
+    font-size: 0.8em;
+}
+
+.post-lateral a {
+    color: #fdc21e;
+    font-size: 0.8em;
+    text-decoration: none;
+    display: block;
+}
+
+.borda{
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.post-lateral .categorias {
+    font-size: 1em;
+}
+
+.post-lateral a:hover, .post-lateral .categorias:hover {
+    text-decoration: underline;
+}
+
+main span {
+        color: #f7b600;
+        font-style: italic;
+}
+
+#clear {
+    clear: both;
+}
+
+/* FIM DO MAIN */
+
+/* INICIO DO FOOTER */
+    footer {
+        width: 935px;
+        padding: 15px 0px;
+        background-color: #c4c4c4;
+        text-align: center;
+        margin: 0px auto 15px auto;
+    }
+
+    footer a {
+        color: #3a3a3a;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+/* FIM DO FOOTER */
