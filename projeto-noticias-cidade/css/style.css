@@ -83,26 +83,22 @@ body.fotos #navegacao a#fotos {
 }
 
 #primario {
-    background-color: blue;
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 195px;
 }
 
 #duas-colunas #primario {
-    background-color: blue;
     width: 555px;
 }
 
 #uma-colunas #primario {
-    background-color: blue;
 	width: 750px;
 	margin: 0 0 20px 0;
 
 }
 
 #secundario {
-    background-color: green;
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
@@ -137,6 +133,45 @@ h2 {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+/* MENU LATERAL */
+
+#lateral ul a {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #F9F9F9 url('../img/marcador.png') no-repeat left center;
+    color: #A1A1A1;
+    text-indent: 20px;
+}
+
+/*FORMULARIOS*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 #rodape {
