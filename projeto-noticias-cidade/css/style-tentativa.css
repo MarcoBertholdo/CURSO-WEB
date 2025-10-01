@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background: url('../img/fundo.png') repeat-x;
+}
+
+#countainer {
+    width: 750px;
+    height: 175px;
+    margin: 0px auto;
+    background-color: #294C71;
+}
+
+/* HEADER INICIO */
+#cabecalho {
+    background: url('../img/detalhe-topo.png') no-repeat right;
+    height: 179px;
+}
+
+#logo {
+    background: #294C71 url('../img/logo.png') no-repeat left;
+    height: 70px;
+    width: 155px;
+    padding: 20px;
+}
+
+#cabecalho ul {
+    margin-top: 20px;
+}
+
+#cabecalho li {
+    display: inline;
+    list-style: none;
+}
+
+#cabecalho li a {
+    font-weight: bold;
+    padding: 12px 20px;
+    margin-right: -10px;
+    background: #B10333 url('../img/divisor.png') no-repeat left;
+    color: #fff;
+    text-decoration: none;
+}
+
+#cabecalho a:hover {
+    color: black;
+}
+
+#cabecalho .pagina-atual a {
+    background-color: #DE003E;
+}
+/* HEADER FIM */
+
+/* MAIN INICIO */
+#conteudo {
+    margin-top: 60px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+}
+
+#entrevistas {
+    background: url('../img/fundo-caixa.png');
+    height: 370px;
+    margin-bottom: 20px;
+
+}
+
+#entrevistas h2, #email h2 {
+    background-color: #294C71;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+}
+
+#entrevistas li {
+    list-style: none;
+}
+
+#entrevistas a {
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 10px 5px;
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#entrevistas a:hover {
+    color: #A1A1A1;
+    background: #F9F9F9 url('../img/marcador.png') no-repeat left;
+    text-indent: 20px;
+    background-color: #F9F9F9;
+}
+
+#email {
+    background: url('../img/fundo-caixa.png');
+    background-color: green;
+
+    padding: 5px;
+}
+
+form {
+    padding: 5px;
+    background-color: #fff;
+}
+
+#box-email {
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding: 5px;
+    width: 125px;
+}
+
+#botao-enviar {
+    width: 85px;
+    margin-top: 2px;
+    padding: 3px 5px;
+    color: #fff;
+    background-color: #B10333;
+    border: 2px solid #7e0024;
+}
+
+#principal {
+    margin-top: 5px;
+    width: 570px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+
+#principal h2 {
+    background-color: #294C71;
+    color: #fff;
+    padding: 5px;
+}
+
+#coluna-1, #coluna-2 {
+    width: 260px;
+}
+
+#coluna-1 {
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+#destaque {
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.caixa-conteudo {
+    padding: 5px;
+    background: #fff url('../img/fundo-caixa.png');
+}
+
+.caixa-conteudo a {
+    text-decoration: none;
+    background-color: white;
+}
+
+.caixa-conteudo li {
+    background-color: #fff;
+    height: 65px;
+    margin: 0px 5px;
+    border-bottom: 1px solid rgb(168, 168, 168);    
+}
+
+.caixa-conteudo li:hover {
+    background-color: #f5f5f5;
+}
+
+.caixa-conteudo ul {
+    list-style: none;
+    padding: 5px 0px;
+    background-color: #fff;
+}
+
+.caixa-conteudo h3 {
+    color: #3E7AB9;
+}
+
+.caixa-conteudo p {
+    font-size: 0.7em;
+    color: black;
+}
+
+.imagem-conteudo {
+    float: left;
+    padding: 5px;
+}
+
+#coluna-2 {
+    float: right;
+
+}
+/* MAIN FIM */
+
+/* FOOTER INICIO */
+#rodape {
+    padding: 20px 0px;
+    color: #fff;
+    clear: both;
+    background-color: #294C71;
+    text-align: center;
+}
+/* FOOTER FIM */
