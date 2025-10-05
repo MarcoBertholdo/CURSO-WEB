@@ -113,6 +113,63 @@ ul {
     line-height: 30px;
 }
 
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-principal h2 {
+    font-size: 1.1em;
+    color: #7D7640;
+    margin-bottom: 5px;
+}
+
+#area-principal p {
+    margin-bottom: 10px;
+}
+
+#area-lateral {
+    background: #DBD8B6 url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+    float: right;
+    width: 50%;
+}
+
+#area-lateral li {
+    padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#area-lateral li:hover {
+    background-color: #F6F3D6;
+}
+
+#area-lateral img {
+    margin-right: 8px;
+    float: left;
+}
+
+#area-lateral h3 {
+    font-size: 1em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#area-lateral p {
+    color: #000;
+	font-size: 0.8em;
+}
+
+.conteudo {
+    margin: 0px auto;
+    width: 90%;
+    
+}
+
 #menu a:hover {
     background-color: #FDF6BE;
 }
