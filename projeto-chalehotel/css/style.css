@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: url(../img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -22,6 +22,7 @@ body {
     background: #dbcb87;
     height: 15.4em;
     min-height: 250px;
+    margin-bottom: 8px;
 }
 
 #area-logo {
@@ -131,7 +132,7 @@ ul {
 }
 
 #area-lateral {
-    background: #DBD8B6 url(../imagens/bg-area-lateral.png) top left repeat-x;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
 	padding: 20px 0px;
     float: right;
     width: 50%;
@@ -141,13 +142,16 @@ ul {
     padding: 8px;
 	border-bottom: 1px solid #f3efcb;
 	height: 6em;
+    transition-duration: 0.2s;
 }
 
 #area-lateral li:hover {
+    transition-duration: 0.2s;
     background-color: #F6F3D6;
 }
 
 #area-lateral img {
+    border: 2px solid #F6F3D6;
     margin-right: 8px;
     float: left;
 }
@@ -172,4 +176,11 @@ ul {
 
 #menu a:hover {
     background-color: #FDF6BE;
+}
+
+#rodape {
+    text-align: right;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #7d7640;
 }

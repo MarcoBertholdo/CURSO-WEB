@@ -1,0 +1,174 @@
+* {
+    font-size: 1em;
+}
+
+body {
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffae44;
+}
+
+/* HEADER*/
+
+header {
+    height: 55px;
+    padding: 15px 0px;
+}
+
+#logo h1 {
+    float: left;
+}
+
+#logo a {
+    width: 248px;
+	height: 21px;
+    text-indent: -999999999px;
+    background: url('../img/logo.png');
+    display: block;
+}
+
+header ul {
+    float: right;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+header li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* CONTEUDO */
+#conteudo {
+    width: 710px;
+    float: left;
+}
+
+#conteudo h3 {
+    text-transform: uppercase;
+    color: #227115;
+}
+
+#video, #exposicoes {
+    padding-left: 25px;
+    float: left;
+    width: 310px;
+}
+
+#mapa, #historia {
+    padding-right: 25px;
+    float: right;
+    width: 310px;
+}
+
+#exposicoes, #historia {
+    margin-top: 15px;
+}
+
+/* ASIDE */
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    text-transform: uppercase;
+    color: #86521A;
+}
+
+#visita {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 27px 27px 27px;
+    background-color: #CDC8B1;
+}
+
+#data {
+    border: 1px solid #9b9271de;
+    border-radius: 2px;
+    width: 80px;
+    height: 20px;
+}
+
+#qtd {
+    border: 1px solid #9b9271de;
+    border-radius: 2px;
+    width: 30px;
+    height: 20px;
+}
+
+#enviar {
+    margin-top: 10px;
+    font-size: 1.3em;
+    background-color: #9B9271;
+    color: #fff;
+    width: 80%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#enviar:hover {
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#galeria {
+    padding: 0 27px 0 27px;
+}
+
+#galeria a {
+    display: block;
+    float: left;
+    background: url('../img/fundo-foto.png') no-repeat;
+    padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+}
+
+/* RODAPÉ */
+
+footer {
+    clear: both;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #c28739;
+
+}
+
+#link-museu {
+    margin: 0;
+}
